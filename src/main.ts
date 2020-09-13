@@ -24,12 +24,16 @@ function loader(loading: boolean) {
 function genActiveRule(urlList: Array<string>) {
   return (location) => {
     for(let url of urlList) {
-      if ((location + '').includes(url)) {
+      if (location.hash === url) {
         return true;
       }
     }
     return false;
   }
+}
+
+function navigateTo(hash) {
+  window.location.hash = hash;
 }
 
   /**
@@ -91,7 +95,7 @@ function genActiveRule(urlList: Array<string>) {
  /**
   * Step3 设置默认进入的子应用
   */
- setDefaultMountApp('/angular9');
+ navigateTo('#/angular9');
  
  /**
   * Step4 启动应用
