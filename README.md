@@ -1,27 +1,30 @@
 # QiankunAngularAngularjs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+基于qiankun,实现了在angular9主应用下挂angularjs子应用的范例。可实现angularjs和angular9优雅共存，增量迁移。本工程只是对qiankun官网样例的补充，如果想要详细了解qiankun请访问官网：`https://qiankun.umijs.org/`
 
-## Development server
+## 工程启动
+在主应用与子应用下先分别完成依赖的安装
+```shell
+npm install
+```
+### 启动主应用
+```shell
+npm run start:main 
+```
+### 启动 angularjs 子应用
+```shell
+npm run start:angularjs 
+```
+### 启动 angular9 子应用
+```shell
+npm run start:angular9
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## 参考资料
+qiankun: `https://qiankun.umijs.org/`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+single-spa/ecosystem/angularjs: `https://single-spa.js.org/docs/ecosystem-angularjs`
 
-## Build
+single-spa-angularjs: `https://github.com/single-spa/single-spa-angularjs/`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
