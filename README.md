@@ -28,3 +28,7 @@ single-spa/ecosystem/angularjs: `https://single-spa.js.org/docs/ecosystem-angula
 
 single-spa-angularjs: `https://github.com/single-spa/single-spa-angularjs/`
 
+## 声明
+
+本工程有部分代码直接使用了 qiankun 和 single-spa 样例中的源码，如有侵权麻烦告知删除。
+
