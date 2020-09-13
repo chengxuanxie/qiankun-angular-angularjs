@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
+import { EventBusService } from './services/event-bus.service';
+import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-root',
+  selector: 'main-app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

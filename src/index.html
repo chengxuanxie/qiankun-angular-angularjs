@@ -8,6 +8,24 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
-  <app-root></app-root>
+  <div class="mainapp">
+    <!-- 标题栏 -->
+    <header class="mainapp-header">
+      <h1>QianKun</h1>
+    </header>
+    <div class="mainapp-main">
+      <!-- 侧边栏 -->
+      <ul class="mainapp-sidemenu">
+        <li onclick="hashChange('#/angular9')">Angular9</li>
+        <li onclick="hashChange('#/angularjs')">Angularjs</li>
+      </ul>
+      <main-app-root></main-app-root>
+    </div>
+  </div>
+  <script>
+    function hashChange(hash){
+      window.location.hash = hash;
+    }
+  </script>
 </body>
 </html>
