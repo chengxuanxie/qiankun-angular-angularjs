@@ -21,7 +21,113 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/lib",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-chitose/assets",
+                "output": "lib/live2dw/live2d-widget-model-chitose/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-epsilon2_1/assets",
+                "output": "lib/live2dw/live2d-widget-model-epsilon2_1/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-gf/assets",
+                "output": "lib/live2dw/live2d-widget-model-gf/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-haru/assets",
+                "output": "lib/live2dw/live2d-widget-model-haru/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-haruto/assets",
+                "output": "lib/live2dw/live2d-widget-model-haruto/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-hibiki/assets",
+                "output": "lib/live2dw/live2d-widget-model-hibiki/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-hijiki/assets",
+                "output": "lib/live2dw/live2d-widget-model-hijiki/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-izumi/assets",
+                "output": "lib/live2dw/live2d-widget-model-izumi/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-koharu/assets",
+                "output": "lib/live2dw/live2d-widget-model-koharu/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-miku/assets",
+                "output": "lib/live2dw/live2d-widget-model-miku/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-ni-j/assets",
+                "output": "lib/live2dw/live2d-widget-model-ni-j/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-nico/assets",
+                "output": "lib/live2dw/live2d-widget-model-nico/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-nietzsche/assets",
+                "output": "lib/live2dw/live2d-widget-model-nietzsche/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-nipsilon/assets",
+                "output": "lib/live2dw/live2d-widget-model-nipsilon/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-nito/assets",
+                "output": "lib/live2dw/live2d-widget-model-nito/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-shizuku/assets",
+                "output": "lib/live2dw/live2d-widget-model-shizuku/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-tororo/assets",
+                "output": "lib/live2dw/live2d-widget-model-tororo/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-tsumiki/assets",
+                "output": "lib/live2dw/live2d-widget-model-tsumiki/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-unitychan/assets",
+                "output": "lib/live2dw/live2d-widget-model-unitychan/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-wanko/assets",
+                "output": "lib/live2dw/live2d-widget-model-wanko/"
+              },
+              {
+                "glob": "**/*",
+                "input": "./node_modules/live2d-widget-model-z16/assets",
+                "output": "lib/live2dw/live2d-widget-model-z16/"
+              }
             ],
             "styles": [
               "src/styles.less"
