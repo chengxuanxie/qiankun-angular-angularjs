@@ -20,6 +20,12 @@ npm run start:angularjs
 npm run start:angular9
 ```
 
+## 运行效果
+### 切换angular9
+![angular9](https://raw.githubusercontent.com/chengxuanxie/qiankun-angular-angularjs/master/src/assets/subapp_angular9.JPG)
+
+### 切换angularjs
+![angularjs](https://github.com/chengxuanxie/qiankun-angular-angularjs/blob/master/src/assets/subapp_angularjs.JPG?raw=true)
 
 ## 参考资料
 qiankun: `https://qiankun.umijs.org/`
